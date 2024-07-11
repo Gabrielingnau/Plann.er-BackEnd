@@ -5,7 +5,6 @@ import { z } from 'zod'
 import { prisma } from "../lib/prisma";
 import { getMailClient } from "../lib/mail";
 import nodemailer from 'nodemailer';
-import { ClientError } from "../errors/client-error";
 import { env } from "../env";
 
 
@@ -34,7 +33,7 @@ export async function confirmTrip(app: FastifyInstance) {
     })
 
     if (!trip) {
-      throw new ClientError('Trip not found.')
+      throw new Error('Trip not found.')
     }
 
     if (trip.is_confirmed) {
