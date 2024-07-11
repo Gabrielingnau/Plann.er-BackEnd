@@ -36,7 +36,7 @@ Also, it's good to have an editor to work with the code, such as [VSCode](https:
 ```bash
 git init
 
-git clone https://github.com/Gabrielingnau/BackEndNotes
+git clone https://github.com/Gabrielingnau/Plann.er-BackEnd/tree/main
 
 # On the Backend, enter a port and a secret, a library e.g. "sqlite" and a NODE_ENV e.g. "development" in the empty .env file
   NODE_ENV=dev

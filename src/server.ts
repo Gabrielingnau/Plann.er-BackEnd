@@ -14,6 +14,7 @@ import { updateTrip } from "./routes/update.trip";
 import { env } from "./env";
 import { getTripDetails } from './routes/get-trip-details';
 import { getParticipants } from './routes/get-participants';
+import 'dotenv'
 
 const app = fastify()
 
