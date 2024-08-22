@@ -51,7 +51,7 @@ $ npm install
 # Agora inicie o servidor BackEnd
 $ npm run start:dev
 
-# O servidor será iniciado em port:3336 - go to <http://localhost:3336>
+# O servidor será iniciado em port:3336 - vá para <http://localhost:3336>
 ```
 
 ---
