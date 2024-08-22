@@ -2,14 +2,14 @@
   <h4 align="center">Plann.er BackEnd</h4>
 </p>
 
-## 💻 About:
+## 💻 Sobre:
 
- api with fastify, prisma, typescript and more.
+API com Fastify, Prisma, TypeScript e muito mais.
 
- Functional Requirements: The user must be able to create a trip; The user should be able to get a summary of the trip;  The user must be able to invite people to the trip via email; the user must be able to create important links for the trip and must be able to create tasks for the trip.
+Requisitos funcionais: O usuário deve ser capaz de criar uma viagem; O usuário deve ser capaz de obter um resumo da viagem;  O usuário deve ser capaz de convidar pessoas para a viagem por e-mail; O usuário deve ser capaz de criar links importantes para a viagem e deve ser capaz de criar tarefas para a viagem.
 
- Notes: this api was created in the rocketseat event (NLW Journey), which lasts three days and each class is about 1 hour, so I didn't have time to make an api with a designem,
- that it is easy to maintain, and that it has a very readable code, but all routes work.
+Notas: essa api foi criada no evento rocketseat (NLW Journey), que dura três dias e cada aula dura cerca de 1 hora, então não tive tempo de fazer uma api com um designem,
+que é fácil de manter e que tem um código muito legível, mas todas as rotas funcionam.
 
 
 
@@ -22,38 +22,38 @@
 
 ---
 
-## 🚀 How to run the project.
+## 🚀 Como executar o projeto.
 
-### Prerequisites
+### Pré requisitos
 
-Before you begin, you will need to have the following tools installed on your machine:
+Antes de começar, você precisará ter as seguintes ferramentas instaladas em sua máquina:
 [Node.js] (https://nodejs.org/en/). 
-Also, it's good to have an editor to work with the code, such as [VSCode](https://code.visualstudio.com/)
+Além disso, é bom ter um editor para trabalhar com o código, como [VSCode](https://code.visualstudio.com/)
 
 
-### 🚧 Running the BackEnd (server)
+### 🚧 Executando o back-end (servidor)
 
 ```bash
 git init
 
 git clone https://github.com/Gabrielingnau/Plann.er-BackEnd/tree/main
 
-# On the Backend, enter a port and a secret, a library e.g. "sqlite" and a NODE_ENV e.g. "development" in the empty .env file
+# No Backend, insira uma PORT e uma SECRET, e uma biblioteca, por exemplo, "sqlite" e um NODE_ENV, por exemplo, "development" no arquivo .env vazio
   NODE_ENV=dev
   DATABASE_URL=
   API_BASE_URL=
   WEB_BASE_URL=
   PORT=
 
-# Install the necessary dependencies
+# Instale as dependências necessárias
 $ npm install
 
-# Now start the BackEnd server
+# Agora inicie o servidor BackEnd
 $ npm run start:dev
 
-# The server will start at port:3333 - go to <http://localhost:3336>
+# O servidor será iniciado em port:3336 - go to <http://localhost:3336>
 ```
 
 ---
-⌨️ with ❤️ by [Gabriel Lingnau](https://www.linkedin.com/in/gabriel-lingnau-3bb17b266/) 😊
+⌨️ com ❤️ por [Gabriel Lingnau](https://www.linkedin.com/in/gabriel-lingnau-3bb17b266/) 😊
 =======
